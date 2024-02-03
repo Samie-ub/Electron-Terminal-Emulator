@@ -28,8 +28,8 @@
                 {
                     "name": "@electron-forge/maker-squirrel",
                     "config": {
-                        "name": "Termello",
-                        "authors": "Mellobacon",
+                        "name": "terminal Emulator",
+                        "authors": "Samie",
                         "description": "A terminal emulator made with Electron"
                     }
                 },
