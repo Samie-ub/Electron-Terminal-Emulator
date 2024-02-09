@@ -1,3 +1,8 @@
+@font-face {
+    font-family: UbuntuMono;
+    src: url("../components/utilities/UbuntuMono-Regular.ttf");
+}
+
 * {
     display: block;
 }
@@ -10,16 +15,19 @@ html, body {
     margin: 0vh;
     padding: 0vh;
     overflow: hidden;
+    font-family: UbuntuMono, monospace;
 }
 .terminal {
     height: 100vh;
     box-shadow: inset 0 1px 0 rgba(14,14,14,0.3), 0 9px 20px 6px rgba(50,50,50,0.5);
     box-shadow: inset 0 1px 0 rgba(14,14,14,0.3), 0 9px 20px 6px rgba(50,50,50,0.5);
     background-color: rgba(0,0,0,0.9);
+    padding-top: 35px;
+    padding-bottom: 10px;
 }
 .window {
     height: 100%;
-    font-family: monospace;
+    font-family: UbuntuMono, monospace;
     color: #ffffff;
     white-space: pre-wrap;
     word-wrap: break-word;
